@@ -1,0 +1,45 @@
+.faq {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.faq h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.react-accessible-accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.react-accessible-accordion__heading {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.react-accessible-accordion__heading:hover {
+  background-color: #777;
+}
+
+.react-accessible-accordion__heading--selected {
+  background-color: #f00;
+}
+
+/* Стилізація тексту відповіді */
+.react-accessible-accordion__panel {
+  background-color: #666;
+  color: #fff;
+  padding: 20px;
+  display: none;
+}
+
+.react-accessible-accordion__heading--selected
+  + .react-accessible-accordion__panel {
+  display: block;
+}

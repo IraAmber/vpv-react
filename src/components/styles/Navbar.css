@@ -1,0 +1,20 @@
+.navbar-logo {
+  max-width: 50px;
+}
+
+body {
+  background-color: #333;
+}
+
+.navbar {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}

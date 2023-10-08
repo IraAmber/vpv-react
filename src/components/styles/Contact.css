@@ -1,0 +1,52 @@
+/* Оновлені стилі для компонента Contact */
+.contact {
+  background-color: #000; /* Задайте колір фону за бажанням */
+  color: #fff; /* Колір тексту */
+  padding: 40px 0; /* Відступи від верхньої і нижньої частини */
+}
+
+.contact-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-method-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.contact-method-btn.active {
+  color: #333; /* Колір активного методу зв'язку (за бажанням) */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 600px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #333; /* Колір фону полів вводу (за бажанням) */
+  color: #fff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}

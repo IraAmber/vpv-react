@@ -1,0 +1,65 @@
+/* .advantages {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.advantage {
+  text-align: center;
+  padding: 20px;
+}
+
+.advantage-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.advantage-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.advantage-button {
+  display: block;
+  margin: auto;
+}  */
+
+.pulsating-icon {
+  font-size: 36px;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.advantages {
+  background-color: rgb(19, 18, 18);
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.advantage {
+  margin-bottom: 30px;
+}
+
+.advantage-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.advantage-text {
+  font-size: 18px;
+}
+
+.advantage-button {
+  margin-top: 30px;
+}

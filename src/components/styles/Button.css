@@ -1,0 +1,32 @@
+.animated-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333638;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  animation: buttonAnimation 2s linear infinite; /* Постійна анімація */
+}
+
+.button-text {
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes buttonAnimation {
+  0% {
+    background-color: #414549;
+  }
+  50% {
+    background-color: #080808;
+  }
+  100% {
+    background-color: #405a48;
+  }
+}
+.arrow-icon {
+  margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+.social-media-links {
+  background-color: #000; /* Чорний фон */
+  color: #fff; /* Білий текст */
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.social-media-links h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-media-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-links li {
+  margin: 0 10px;
+  font-size: 0; /* Збираємо іконки разом */
+  transition: transform 0.3s; /* Анімація при наведенні */
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: #fff; /* Білий колір тексту іконок */
+  font-size: 50px; /* Початковий розмір іконок */
+}
+
+.social-media-links a:hover {
+  transform: scale(1.2); /* Збільшення розміру при наведенні */
+}

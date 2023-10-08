@@ -1,0 +1,52 @@
+.services {
+  background-color: rgb(16, 15, 17);
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d9d9da;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-advantages,
+ul,
+.service-title {
+  color: black;
+}
+
+.service:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.service-li {
+  list-style-type: none;
+}
+
+.service-image {
+  flex: 1;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.service-details {
+  flex: 2;
+}
+.service-image img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
