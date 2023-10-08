@@ -6,36 +6,35 @@ import '../components/styles/Portfolio.css'
 const Portfolio = () => {
   const portfolioData = [
     {
-      type: 'image', // 'image' або 'video'
-      src: 'image1.jpg', // посилання на фото або відео
-      description: 'Опис 1', // опис позиції
+      type: 'image',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ3ENQhKGOKzj3VRkU06yQ0ttK21MIb9QuA&usqp=CAU',
+      description: '',
     },
     {
       type: 'video',
       src: 'video1.mp4',
-      description: 'Опис 2',
+      description: '',
     },
     {
       type: 'image',
-      src: 'image2.jpg',
-      description: 'Опис 3',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ3ENQhKGOKzj3VRkU06yQ0ttK21MIb9QuA&usqp=CAU',
+      description: '',
     },
     {
       type: 'image',
-      src: 'image2.jpg',
-      description: 'Опис 3',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ3ENQhKGOKzj3VRkU06yQ0ttK21MIb9QuA&usqp=CAU',
+      description: '',
     },
     {
       type: 'image',
-      src: 'image2.jpg',
-      description: 'Опис 3',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQraHOSPLqt0PQisT-oFEAu3fFE7KUVTDWayw&usqp=CAU',
+      description: '',
     },
     {
       type: 'image',
-      src: 'image2.jpg',
-      description: 'Опис 3',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqJ3ENQhKGOKzj3VRkU06yQ0ttK21MIb9QuA&usqp=CAU',
+      description: '',
     },
-    // Додайте більше позицій, якщо потрібно
   ]
 
   const sliderSettings = {
